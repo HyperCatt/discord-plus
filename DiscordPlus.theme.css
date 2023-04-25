@@ -18,7 +18,6 @@
 .theme-dark {
 /* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
    To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
-  --dplus-backdrop: url();
 
 /* Accent color, used to decorate the UI with colors. */
   --dplus-accent-color-hue: 270;
@@ -40,20 +39,19 @@
 
 /* If you use light theme, you can give it unique settings that are separate from dark theme. */
 .theme-light {
-  --dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
   
-  --dplus-accent-color-hue: 320;
-  --dplus-accent-color-saturation: 60%;
-  --dplus-accent-color-lightness: 31%;
+  --dplus-accent-color-hue: 270;
+  --dplus-accent-color-saturation: 80%;
+  --dplus-accent-color-lightness: 56%;
   
-  --dplus-foreground-color-hue-base: 210;
-  --dplus-foreground-color-hue-links: 197;
+  --dplus-foreground-color-hue-base: 270;
+  --dplus-foreground-color-hue-links: 290;
   --dplus-foreground-color-saturation-amount: 1;
   --dplus-foreground-color-lightness-amount: 1;
 
-  --dplus-background-color-hue: 320;
-  --dplus-background-color-saturation-amount: 1;
-  --dplus-background-color-lightness-amount: 1;
+  --dplus-background-color-hue: 360;
+  --dplus-background-color-saturation-amount: 100;
+  --dplus-background-color-lightness-amount: 100;
   --dplus-background-color-alpha: 0.8;
 }
 
