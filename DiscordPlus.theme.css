@@ -16,6 +16,7 @@
 /* I've commented most of these values so you can change them yourself. If you're having trouble, or you want to do more than what these values allow for, a volunteer might be able to help you in my server. */
 
 .theme-dark {
+   --dplus-backdrop: url();
 /* Accent color, used to decorate the UI with colors. */
   --dplus-accent-color-hue: 270;
   --dplus-accent-color-saturation: 80%;
@@ -36,6 +37,7 @@
 
 /* If you use light theme, you can give it unique settings that are separate from dark theme. */
 .theme-light {
+   --dplus-backdrop: url();
   --dplus-accent-color-hue: 270;
   --dplus-accent-color-saturation: 80%;
   --dplus-accent-color-lightness: 56%;
