@@ -48,8 +48,8 @@
   --dplus-foreground-color-lightness-amount: 1;
 
   --dplus-background-color-hue: 360;
-  --dplus-background-color-saturation-amount: 1;
-  --dplus-background-color-lightness-amount: 1;
+  --dplus-background-color-saturation-amount: 10;
+  --dplus-background-color-lightness-amount: 10;
   --dplus-background-color-alpha: 0.8;
 }
 
